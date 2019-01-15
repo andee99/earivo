@@ -5,9 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 5.2.3
 
-* System dependencies
+* System dependencies:
 
 * Configuration
 
@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+eCommerce site designed by Andee and Neilly on the frontend, using a precious gem::: SPREE
