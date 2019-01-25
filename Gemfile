@@ -27,6 +27,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'execjs'
+gem 'therubyracer'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -61,6 +64,21 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'spree', '~> 3.6.4'
+gem 'spree', '~> 3.6.6'
 gem 'spree_auth_devise', '~> 3.4'
 gem 'spree_gateway', '~> 3.4'
+
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
+
+gem 'spree_contact_us', :git => 'https://github.com/spree-contrib/spree_contact_us'
+
+
+gem 'globalize', github: 'globalize/globalize'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
+
+gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
+
+ gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+

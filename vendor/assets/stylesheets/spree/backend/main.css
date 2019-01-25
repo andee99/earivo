@@ -1,0 +1,38 @@
+.btn-success, .btn.action-capture {
+    color: #fff;
+    background-color: #d63031;
+    border-color: #d63031;
+}
+
+.btn-success:hover, .btn.action-capture:hover {
+    color: #fff;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.btn-primary, .btn.payment-action-edit {
+    color: #fff;
+    background-color: #0984e3;
+    border-color: #0984e3;
+}
+
+
+#main-sidebar ul.nav.nav-pills li.selected a {
+    color: #d63031;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #d63031;
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+}
+
+a:hover, a:focus {
+    color: #d63031;
+    text-decoration: none;
+}
